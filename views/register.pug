@@ -1,0 +1,13 @@
+html
+  head
+    title Formulario de registro
+  body
+    form(method='post' action='/register')
+      label(for='name') Nombre: 
+      input#name(type='text', name='name')
+      label(for='email') Email: 
+      input#name(type='email', name='email')
+      label(for='password') Contraseña: 
+      input#name(type='password', name='password')
+
+      input(type='submit', value='Registrarse')

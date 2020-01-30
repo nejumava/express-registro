@@ -1,0 +1,15 @@
+html
+  head
+    title Formulario de registro
+  body
+    a(href='/register') Registrarse
+    table
+      thead
+        tr
+          th Name
+          th Email
+      tbody
+        each register in registers
+          tr
+            td #{register.name}
+            td #{register.email}
